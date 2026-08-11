@@ -4,14 +4,14 @@ This repository contains the implementation of **RF-DUAGP-Tree**, a Representati
 
 ## Overview
 
-DUAGP-Tree is designed for surgical skill assessment using video-based representations and uncertainty-aware Gaussian Process Tree modeling.
+RF-DUAGP-Tree is designed for surgical skill assessment using video-based representations and uncertainty-aware Gaussian Process Tree modeling.
 
 The implementation includes support for the **JIGSAWS** and **Capsulorhexis** datasets and provides components for feature processing, dataset loading, Gaussian Process modeling, uncertainty-aware kernels, and tree-based learning.
 
 ## Repository Structure
 
 ```text
-DUAGP-Tree/
+RF-DUAGP-Tree/
 ├── datasets/
 │   ├── capsulorhexis.py
 │   ├── capsulorhexis_loader.py
