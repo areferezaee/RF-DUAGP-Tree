@@ -106,3 +106,21 @@ If you use this repository in your research, please cite the corresponding paper
 ## License
 
 A license will be added to this repository.
+## Acknowledgement and Code Attribution
+
+This repository builds upon the GP-Tree framework by Achituve et al. [1].
+
+The implementations of `GP_Tree/node.py`, `GP_Tree/tree.py`, and `GP_Tree/Learner.py` are derived from the original GP-Tree implementation and incorporated into the DUAGP-Tree framework.
+
+The kernel implementations in `GP_Tree/JK.py` and `GP_Tree/kernel_class.py` were developed specifically for this work. `JK.py` is named separately to distinguish the two kernel implementations used in this repository.
+
+The implementation in `GP_Tree/gp_model.py` has also been substantially modified and extended for the proposed DUAGP-Tree framework.
+
+We gratefully acknowledge the authors of the original GP-Tree implementation.
+
+**Original GP-Tree project:**
+https://github.com/yannickach/GP-Tree
+
+### Reference
+
+[1] I. Achituve, A. Navon, Y. Yemini, G. Chechik, and E. Fetaya, "GP-Tree: A Gaussian Process Classifier for Few-Shot Incremental Learning," *Proceedings of the 38th International Conference on Machine Learning (ICML)*, 2021.
