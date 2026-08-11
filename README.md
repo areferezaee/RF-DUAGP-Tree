@@ -1,4 +1,4 @@
-# DUAGP-Tree
+#RF-DUAGP-Tree
 
 This repository contains the implementation of **DUAGP-Tree**, a dynamics- and uncertainty-aware Gaussian Process Tree for surgical skill assessment.
 
