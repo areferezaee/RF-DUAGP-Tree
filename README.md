@@ -28,7 +28,7 @@ RF-DUAGP-Tree/
 │   ├── node.py
 │   └── tree.py
 │
-├── trainer.py
+├── main.py
 ├── utils.py
 └── darawconfusioonm.py
 ```
