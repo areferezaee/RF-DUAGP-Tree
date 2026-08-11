@@ -41,6 +41,19 @@ The code provides dataset interfaces for:
 * **Capsulorhexis**
 
 The dataset files are not included in this repository. Please obtain the datasets from their respective sources and configure the dataset paths in the code before running the experiments.
+## Feature Extraction
+
+Feature representations are extracted using a **Representation Flow CNN** before being processed by the DUAGP-Tree framework.
+
+For the JIGSAWS dataset, the extracted representations are further processed to construct temporal dynamics, including feature, velocity, acceleration, and jerk representations.
+
+For the Capsulorhexis dataset, the extracted representations are summarized using statistical and information-theoretic descriptors before being provided to the DUAGP-Tree model.
+
+The Representation Flow component is based on the approach introduced by Piergiovanni and Ryoo [2].
+
+### Reference
+
+[2] A. J. Piergiovanni and M. S. Ryoo, "Representation Flow for Action Recognition," *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2019, pp. 9945–9953.
 
 ## Method Components
 
