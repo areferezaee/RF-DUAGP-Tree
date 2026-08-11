@@ -92,7 +92,7 @@ pip install -r requirements.txt
 To run DUAGP-Tree on the JIGSAWS dataset:
 
 ```bash
-python3 trainer.py --dataset='JIGSAWS' --natural-lr=.9 --num-inducing-points=15 --outputscale=1.
+python3 main.py --dataset='JIGSAWS' --natural-lr=.9 --num-inducing-points=15 --outputscale=1.
 ```
 
 ### Capsulorhexis
@@ -100,7 +100,7 @@ python3 trainer.py --dataset='JIGSAWS' --natural-lr=.9 --num-inducing-points=15 
 To run DUAGP-Tree on the Capsulorhexis dataset:
 
 ```bash
-python3 trainer.py --dataset='Capsulorhexis' --natural-lr=.9 --num-inducing-points=8 --outputscale=1.
+python3 main.py --dataset='Capsulorhexis' --natural-lr=.9 --num-inducing-points=8 --outputscale=1.
 ```
 
 
