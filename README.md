@@ -74,11 +74,22 @@ pip install -r requirements.txt
 
 ## Usage
 
-The main training script is:
+### JIGSAWS
+
+To run DUAGP-Tree on the JIGSAWS dataset:
 
 ```bash
-python trainer.py
+python3 trainer.py --dataset='JIGSAWS' --natural-lr=.9 --num-inducing-points=15 --outputscale=1.
 ```
+
+### Capsulorhexis
+
+To run DUAGP-Tree on the Capsulorhexis dataset:
+
+```bash
+python3 trainer.py --dataset='Capsulorhexis' --natural-lr=.9 --num-inducing-points=8 --outputscale=1.
+```
+
 
 Dataset-specific processing and loading are implemented in the `datasets/` directory.
 
