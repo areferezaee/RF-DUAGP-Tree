@@ -98,7 +98,6 @@ Dataset-specific processing and loading are implemented in the `datasets/` direc
 Evaluation and visualization utilities are provided in:
 
 ```text
-utils.py
 darawconfusioonm.py
 ```
 
