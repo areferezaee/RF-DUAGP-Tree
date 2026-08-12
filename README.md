@@ -141,12 +141,12 @@ The implementations of `GP_Tree/node.py`, `GP_Tree/tree.py`, and `GP_Tree/Learne
 
 The kernel implementations in `GP_Tree/jig_kernel.py` and `GP_Tree/caps_kernel.py` were independently developed for this work and constitute part of the proposed RF-DUAGP-Tree framework.
 
-The implementation in `GP_Tree/nigp_model.py` was substantially modified and extended for the proposed RF-DUAGP-Tree framework.
+The implementation originally provided in `GP_Tree/gp_model.py` was substantially modified and extended as `GP_Tree/nigp_model.py` for the proposed RF-DUAGP-Tree framework.
 
 We gratefully acknowledge the authors of the original GP-Tree implementation.
 
 **Original GP-Tree project:**
-https://github.com/yannickach/GP-Tree
+https://github.com/IdanAchituve/GP-Tree
 
 ### Reference
 
