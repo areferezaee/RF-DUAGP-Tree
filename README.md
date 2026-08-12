@@ -74,7 +74,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/areferezaee/RF-DUAGP-Tree.git
-cd DUAGP-Tree
+cd RF-DUAGP-Tree
 ```
 
 Install the required Python dependencies:
