@@ -33,14 +33,17 @@ RF-DUAGP-Tree/
 └── darawconfusioonm.py
 ```
 
-## Datasets
+## Datasets and Feature Engineering
 
-The code provides dataset interfaces for:
+The code provides interfaces for the following datasets:
 
-* **JIGSAWS**
-* **Capsulorhexis**
+```text
+JIGSAWS
+Capsulorhexis
+```
 
-The dataset files are not included in this repository. Please obtain the datasets from their respective sources and configure the dataset paths in the code before running the experiments.
+Dataset files are not included in this repository. Please obtain the datasets from their respective sources and configure the corresponding dataset paths in the code before running the experiments.
+
 ## Feature Extraction
 
 Feature representations are extracted using a **Representation Flow CNN** before being processed by the DUAGP-Tree framework.
