@@ -1,5 +1,5 @@
 import torch.nn as nn
-from GP_Tree.tree import BinaryTree
+from DUAGP_Tree.tree import BinaryTree
 from utils import *
 from sklearn.cluster import KMeans
 from gpytorch.models import ApproximateGP, GP

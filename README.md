@@ -18,7 +18,7 @@ RF-DUAGP-Tree/
 │   ├── JIGSAWS.py
 │   └── jigsaws_loader.py
 │
-├── GP_Tree/
+├── DUAGP_Tree/
 │   ├── class_splits.py
 │   ├── nigp_model.py
 │   ├── gp_model_gibbs.py
@@ -137,11 +137,11 @@ A license will be added to this repository.
 
 This repository builds upon the GP-Tree framework by Achituve et al. [1].
 
-The implementations of `GP_Tree/node.py`, `GP_Tree/tree.py`, and `GP_Tree/Learner.py` are derived from the original GP-Tree implementation and incorporated into the RF-DUAGP-Tree framework.
+The implementations of `DUAGP_Tree/node.py`, `DUAGP_Tree/tree.py`, and `DUAGP_Tree/Learner.py` are derived from the original GP-Tree implementation and incorporated into the RF-DUAGP-Tree framework.
 
-The kernel implementations in `GP_Tree/jig_kernel.py` and `GP_Tree/caps_kernel.py` were independently developed for this work and constitute part of the proposed RF-DUAGP-Tree framework.
+The kernel implementations in `DUAGP_Tree/jig_kernel.py` and `DUAGP_Tree/caps_kernel.py` were independently developed for this work and constitute part of the proposed RF-DUAGP-Tree framework.
 
-The implementation originally provided in `GP_Tree/gp_model.py` was substantially modified and extended as `GP_Tree/nigp_model.py` for the proposed RF-DUAGP-Tree framework.
+The implementation originally provided in `DUAGP_Tree/gp_model.py` was substantially modified and extended as `DUAGP_Tree/nigp_model.py` for the proposed RF-DUAGP-Tree framework.
 
 We gratefully acknowledge the authors of the original GP-Tree implementation.
 

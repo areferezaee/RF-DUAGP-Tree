@@ -5,7 +5,7 @@ from torch.utils.data import DataLoader#, non_deterministic
 from tqdm import trange
 from utils import *
 from torchvision import transforms
-from GP_Tree.Learner import ModelBinaryTree2
+from DUAGP_Tree.Learner import ModelBinaryTree2
 from io import BytesIO
 from torch.utils.tensorboard import SummaryWriter
 import numpy as np

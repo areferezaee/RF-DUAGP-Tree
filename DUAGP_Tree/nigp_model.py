@@ -2,8 +2,8 @@ from gpytorch.utils.quadrature import GaussHermiteQuadrature1D
 from torch import nn
 from torch.distributions import MultivariateNormal
 from utils import *
-from GP_Tree.jig_kernel import OneClassGPModel
-# from GP_Tree.caps_kernel import OneClassGPModel
+from DUAGP_Tree.jig_kernel import OneClassGPModel
+# from DUAGP_Tree.caps_kernel import OneClassGPModel
 import torch.nn.functional as F
 import torch
 import gpytorch
