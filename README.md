@@ -12,7 +12,7 @@ The implementation includes support for the **JIGSAWS** and **Capsulorhexis** da
 
 ```text
 RF-DUAGP-Tree/
-├── datasets/
+├── feature_engineering/
 │   ├── capsulorhexis.py
 │   ├── capsulorhexis_loader.py
 │   ├── JIGSAWS.py
@@ -22,8 +22,8 @@ RF-DUAGP-Tree/
 │   ├── class_splits.py
 │   ├── gp_model.py
 │   ├── gp_model_gibbs.py
-│   ├── JK.py
-│   ├── kernel_class.py
+│   ├── jig_kernel.py
+│   ├── caps_kernel.py
 │   ├── Learner.py
 │   ├── node.py
 │   └── tree.py
@@ -138,7 +138,7 @@ This repository builds upon the GP-Tree framework by Achituve et al. [1].
 
 The implementations of `GP_Tree/node.py`, `GP_Tree/tree.py`, and `GP_Tree/Learner.py` are derived from the original GP-Tree implementation and incorporated into the DUAGP-Tree framework.
 
-The kernel implementations in `GP_Tree/JK.py` and `GP_Tree/kernel_class.py` were developed specifically for this work. `JK.py` is named separately to distinguish the two kernel implementations used in this repository.
+The kernel implementations in `GP_Tree/jig_kernel.py` and `GP_Tree/caps_kernel.py` were developed specifically for this work. `JK.py` is named separately to distinguish the two kernel implementations used in this repository.
 
 The implementation in `GP_Tree/gp_model.py` has also been substantially modified and extended for the proposed DUAGP-Tree framework.
 
