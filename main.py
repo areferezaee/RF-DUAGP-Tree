@@ -29,8 +29,8 @@ torch.set_printoptions(profile="full")
 import torch
 import time
 
-#from datasets.capsulorhexis import get_capsulorhexis_feats
-from datasets.JIGSAWS import get_jigsaws_feats
+#from feature_engineering.capsulorhexis import get_capsulorhexis_feats
+from feature_engineering.JIGSAWS import get_jigsaws_feats
 
 
 # =========================

@@ -11,7 +11,7 @@ batch_size = 1
 
 device = torch.device('cpu')#('cuda')
 
-from datasets.jigsaws_loader import JL
+from feature_engineering.jigsaws_loader import JL
 dataset_tr = JL(train, root2)
 dl = torch.utils.data.DataLoader(dataset_tr, batch_size=batch_size, shuffle=False, num_workers=0, pin_memory=False)
     
