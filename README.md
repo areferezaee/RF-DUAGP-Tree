@@ -132,15 +132,16 @@ If you use this repository in your research, please cite the corresponding paper
 ## License
 
 A license will be added to this repository.
+
 ## Acknowledgement and Code Attribution
 
 This repository builds upon the GP-Tree framework by Achituve et al. [1].
 
-The implementations of `GP_Tree/node.py`, `GP_Tree/tree.py`, and `GP_Tree/Learner.py` are derived from the original GP-Tree implementation and incorporated into the DUAGP-Tree framework.
+The implementations of `GP_Tree/node.py`, `GP_Tree/tree.py`, and `GP_Tree/Learner.py` are derived from the original GP-Tree implementation and incorporated into the RF-DUAGP-Tree framework.
 
-The kernel implementations in `GP_Tree/jig_kernel.py` and `GP_Tree/caps_kernel.py` were developed specifically for this work. `JK.py` is named separately to distinguish the two kernel implementations used in this repository.
+The kernel implementations in `GP_Tree/jig_kernel.py` and `GP_Tree/caps_kernel.py` were developed specifically for this work. The two kernel implementations are maintained as separate files to distinguish the components used for the JIGSAWS and Capsulorhexis experiments.
 
-The implementation in `GP_Tree/gp_model.py` has also been substantially modified and extended for the proposed DUAGP-Tree framework.
+The implementation in `GP_Tree/nigp_model.py` has also been substantially modified and extended for the proposed RF-DUAGP-Tree framework.
 
 We gratefully acknowledge the authors of the original GP-Tree implementation.
 
