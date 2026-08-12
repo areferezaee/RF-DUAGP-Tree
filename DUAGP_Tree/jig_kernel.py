@@ -58,12 +58,12 @@ class GPModel(gpytorch.Module):
         x2 = x2#F.normalize(x2)
         
         
-        mean_x = self.mean_module(self.x2)
+        mean_x = self.mean_module(x2)
         g2 = 2048
         g = 512
         g3 = g +g2
         oo = 1.#000#0.5#000.#000.#00000.
-        covar_x1 = self.covar_module1(x1[:,0:1*g], self.x2[:,0:1*g]).add_jitter(jitter_val=self.jitter_val).to_dense()#.evaluate() 
+        covar_x1 = self.covar_module1(x1[:,0:1*g], x2[:,0:1*g]).add_jitter(jitter_val=self.jitter_val).to_dense()#.evaluate() 
         covar_x5 = self.covar_module5(x1[:,1*g:1*g3], x2[:,1*g:1*g3]).add_jitter(jitter_val=self.jitter_val).to_dense()                
         covar_x2 = self.covar_module2(x1[:,1*g3:g3+g], x2[:,1*g3:g3+g]).add_jitter(jitter_val=self.jitter_val).to_dense()         
         covar_x6 = self.covar_module6(x1[:,g3+g:2*g3], x2[:,g3+g:2*g3]).add_jitter(jitter_val=self.jitter_val).to_dense()        
