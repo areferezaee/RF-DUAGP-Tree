@@ -20,7 +20,7 @@ RF-DUAGP-Tree/
 │
 ├── GP_Tree/
 │   ├── class_splits.py
-│   ├── gp_model.py
+│   ├── nigp_model.py
 │   ├── gp_model_gibbs.py
 │   ├── jig_kernel.py
 │   ├── caps_kernel.py

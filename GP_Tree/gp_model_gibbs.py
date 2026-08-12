@@ -2,7 +2,8 @@ from collections import namedtuple
 import polyagamma as pypolyagamma
 from gpytorch.utils.quadrature import GaussHermiteQuadrature1D
 from torch import nn
-from GP_Tree.kernel_class import OneClassGPModel
+from GP_Tree.jig_kernel import OneClassGPModel
+# from GP_Tree.caps_kernel import OneClassGPModel
 import torch.nn.functional as F
 
 from utils import *

@@ -1,4 +1,4 @@
-from GP_Tree.gp_model import GP_Model
+from GP_Tree.nigp_model import GP_Model
 from GP_Tree.gp_model_gibbs import GP_Model_Gibbs
 from torch import nn
 import torch.optim as optim
