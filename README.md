@@ -73,7 +73,7 @@ The implementation includes the uncertainty-aware kernel variants **UA1**, **UA2
 Clone the repository:
 
 ```bash
-git clone https://github.com/areferezaee/DUAGP-Tree.git
+git clone https://github.com/areferezaee/RF-DUAGP-Tree.git
 cd DUAGP-Tree
 ```
 
