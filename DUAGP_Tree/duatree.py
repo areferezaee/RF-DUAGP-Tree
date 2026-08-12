@@ -1,4 +1,4 @@
-from DUAGP_Tree.node import Node_VI, Node_Gibbs
+from DUAGP_Tree.duanode import Node_VI, Node_Gibbs
 from DUAGP_Tree.class_splits import *
 from utils import (detach_to_numpy, pytorch_take, pytorch_take2, pytorch_take3)
 import logging

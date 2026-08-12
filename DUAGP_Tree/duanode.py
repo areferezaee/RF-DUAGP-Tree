@@ -1,4 +1,4 @@
-from DUAGP_Tree.nigp_model import GP_Model
+from DUAGP_Tree.duagp_model import GP_Model
 from DUAGP_Tree.gp_model_gibbs import GP_Model_Gibbs
 from torch import nn
 import torch.optim as optim

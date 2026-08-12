@@ -20,13 +20,13 @@ RF-DUAGP-Tree/
 │
 ├── DUAGP_Tree/
 │   ├── class_splits.py
-│   ├── nigp_model.py
+│   ├── duagp_model.py
 │   ├── gp_model_gibbs.py
 │   ├── jig_kernel.py
 │   ├── caps_kernel.py
-│   ├── Learner.py
-│   ├── node.py
-│   └── tree.py
+│   ├── dualearner.py
+│   ├── duanode.py
+│   └── duatree.py
 │
 ├── main.py
 ├── utils.py
@@ -137,11 +137,11 @@ A license will be added to this repository.
 
 This repository builds upon the GP-Tree framework by Achituve et al. [1].
 
-The implementations of `DUAGP_Tree/node.py`, `DUAGP_Tree/tree.py`, and `DUAGP_Tree/Learner.py` are derived from the original GP-Tree implementation and were modified and extended to incorporate noise-robust components and NIS propagation within the proposed RF-DUAGP-Tree framework.
+The implementations of `DUAGP_Tree/duanode.py`, `DUAGP_Tree/duatree.py`, and `DUAGP_Tree/dualearner.py` are derived from the original GP-Tree implementation and were modified and extended to incorporate noise-robust components and NIS propagation within the proposed RF-DUAGP-Tree framework.
 
 The kernel implementations in `DUAGP_Tree/jig_kernel.py` and `DUAGP_Tree/caps_kernel.py` were independently developed for this work and constitute part of the proposed RF-DUAGP-Tree framework.
 
-The implementation originally provided in `DUAGP_Tree/gp_model.py` was substantially modified and extended as `DUAGP_Tree/nigp_model.py` for the proposed RF-DUAGP-Tree framework.
+The implementation originally provided in `DUAGP_Tree/gp_model.py` was substantially modified and extended as `DUAGP_Tree/duagp_model.py` for the proposed RF-DUAGP-Tree framework.
 
 We gratefully acknowledge the authors of the original GP-Tree implementation.
 
