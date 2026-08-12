@@ -1,4 +1,4 @@
-## RF-DUAGP-Tree
+## RF-DUAGP-Tree:Video-based Surgical Skill Assessment Using Dynamics-and-Uncertainty-Aware Tree-based Gaussian Process Classifier
 
 This repository contains the implementation of **RF-DUAGP-Tree**, a Representation Flow-based Dynamics and Uncertainty-Aware Gaussian Process Tree for surgical skill assessment.
 
