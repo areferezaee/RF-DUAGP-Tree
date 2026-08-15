@@ -64,6 +64,7 @@ The repository includes:
 
 * Gaussian Process Tree modeling
 * Dynamics-aware feature processing
+* Semantic-aware compound kernels
 * Uncertainty-aware kernels
 * Temporal feature representations
 * JIGSAWS and Capsulorhexis data loaders
